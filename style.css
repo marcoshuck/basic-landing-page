@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #FA6B84;
+    --color-dark: #35528B;
+    --color-light: #FFF;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --font-family-title: 'Open Sans', sans-serif;
+    --font-family-logo: 'Raleway', sans-serif;
+    --font-family-text: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-light);
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    line-height: 1;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-dark);
+}
+
+.nav__list {
+    display: inline;
+    justify-content: space-between;
+
+    margin: 1em 0 0;
+    padding: 1em;
+
+    list-style: none;
+
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-normal);
+    letter-spacing: 1px;
+}
+
+.nav__item {
+    float: right;
+}
+
+.nav__link {
+    display: block;
+    padding: 0.625em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: right;
+    padding: 3em 1em 15rem;
+}
+
+.main__title {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+    font-weight: var(--font-weight-bold);
+    font-size: 2.25em;
+    color: var(--color-dark);
+}
+
+.main__description {}
+
+.main--fruits {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    background-position: center left;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: .5em 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: var(--font-weight-bold);
+    display: inline-block;
+}
+
+.btn + .btn {
+    margin-left: 1em;
+}
+
+.btn--primary {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+
+.btn--primary:hover {
+    background-color: var(--color-dark);
+}
+
+.btn--outline {
+    color: var(--color-primary);
+    background-color: var(--color-light);
+    outline: 4px solid var(--color-primary);
+    outline-offset: -4px;
+}
+
+.btn--outline:hover {
+    background-color: var(--color-dark);
+    outline-color: var(--color-dark);
+    color: var(--color-light);
+}
