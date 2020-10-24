@@ -7,12 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            Food Blog
-        </div>
-
-        <nav class="nav">
+    <nav class="nav">
+        <div class="wrapper nav__container">
+            <div class="logo">
+                Food Blog
+            </div>
+            <div class="horizontal-spacer"></div>
             <ul class="nav__list">
                 <li class="nav__item">
                     <a href="#" class="nav__link">
@@ -38,17 +38,169 @@
                     </a>
                 </li>
             </ul>
-        </nav>
-    </header>
-
+        </div>
+    </nav>
     <main class="main main--fruits">
-        <h1 class="main__title">Lorem ipsum dolor sit amet.</h1>
-        <p class="main__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec. Mauris sed est sit amet libero pellentesque finibus. Phasellus condimentum ligula libero, id pretium risus commodo vel. Donec eget arcu purus. Pellentesque posuere eros nec purus tristique, at dapibus enim vestibulum.</p>
+        <div class="wrapper main__content align-center justify-left">
+            <div class="main__container">
+                <h1 class="main__title">Lorem ipsum dolor sit amet.</h1>
+                <p class="main__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec. Mauris sed est sit amet libero pellentesque finibus. Phasellus condimentum ligula libero, id pretium risus commodo vel. Donec eget arcu purus. Pellentesque posuere eros nec purus tristique, at dapibus enim vestibulum.</p>
 
-        <a href="#" class="btn btn--primary">Leer más</a>
-        <a href="#" class="btn btn--outline">Contacto</a>
+                <div class="btn-group">
+                    <a href="#" class="btn btn--primary">Leer más</a>
+                    <a href="#" class="btn btn--outline">Contacto</a>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <section class="section--tips">
+        <div class="wrapper tips">
+            <div class="tip__container">
+                <div class="tip__icon">
+                    <img src="assets/flower.svg">
+                </div>
+                <h2 class="tip__title">Flowers</h2>
+                <p class="tip__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+            </div>
+            <div class="tip__container">
+                <div class="tip__icon">
+                    <img src="assets/plane.svg">
+                </div>
+                <h2 class="tip__title">Travel</h2>
+                <p class="tip__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+            </div>
+            <div class="tip__container">
+                <div class="tip__icon">
+                    <img src="assets/heart.svg">
+                </div>
+                <h2 class="tip__title">Love</h2>
+                <p class="tip__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+            </div>
+        </div>
+    </section>
 
+    <section class="section--articles">
+        <div class="wrapper articles">
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+            <div class="article__card">
+                <img class="article__image" src="assets/article_photo.svg">
+                <div class="article__container">
+                    <h2 class="article__title">Título del artículo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare commodo hendrerit. Ut euismod volutpat magna, nec gravida diam blandit nec.</p>
+                </div>
+                <div class="article__actions">
+                    <a class="article__link">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section--contact align-center justify-center">
+        <div class="wrapper contact__content">
+            <div class="form__card">
+                <h1 class="form__title">Formulario de contacto</h1>
+
+                <div>
+                    <label class="form__label" for="name-input">Nombre</label>
+                    <input class="form__field" id="name-input">
+                </div>
+
+                <div>
+                    <label class="form__label" for="email-input">Correo electrónico</label>
+                    <input class="form__field" type="email" id="email-input">
+                </div>
+
+                <div>
+                    <label class="form__label" for="message-input">Mensaje</label>
+                    <textarea
+                            class="form__field form__textarea"
+                            id="message-input"
+                            rows="6"
+                    ></textarea>
+                </div>
+
+                <div class="button-group">
+                    <a class="btn btn--primary">Enviar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer align-center justify-center">
+        <div class="wrapper footer__content">
+            <p>Todos los derechos reservados. Blog de comidas y experiencias.</p>
+            <p>Creado por Marcos Huck para la materia Aplicaciones Web del ISSD.</p>
+        </div>
+    </footer>
 </body>
 </html>
